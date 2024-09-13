@@ -9322,6 +9322,7 @@ const RAW_RUNTIME_STATE =
           ]],\
           ["fast-glob", "npm:3.3.2"],\
           ["got", "npm:11.8.2"],\
+          ["lodash.mergewith", "npm:4.5.0"],\
           ["micromatch", "npm:4.0.5"],\
           ["p-limit", "npm:2.2.0"],\
           ["rollup", "npm:2.59.0"],\
@@ -27978,6 +27979,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-d0ea2dd009.zip/node_modules/lodash.merge/",\
         "packageDependencies": [\
           ["lodash.merge", "npm:4.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.mergewith", [\
+      ["npm:4.5.0", {\
+        "packageLocation": "./.yarn/cache/lodash.mergewith-npm-4.5.0-4400059d64-9737806ac3.zip/node_modules/lodash.mergewith/",\
+        "packageDependencies": [\
+          ["lodash.mergewith", "npm:4.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\

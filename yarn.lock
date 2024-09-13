@@ -5518,6 +5518,7 @@ __metadata:
     esbuild: "npm:esbuild-wasm@^0.23.0"
     fast-glob: "npm:^3.2.2"
     got: "npm:^11.7.0"
+    lodash.mergewith: "npm:^4.5.0"
     micromatch: "npm:^4.0.2"
     p-limit: "npm:^2.2.0"
     rollup: "npm:^2.59.0"
@@ -14100,6 +14101,13 @@ __metadata:
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: 10/d0ea2dd0097e6201be083865d50c3fb54fbfbdb247d9cc5950e086c991f448b7ab0cdab0d57eacccb43473d3f2acd21e134db39f22dac2d6c9ba6bf26978e3d6
+  languageName: node
+  linkType: hard
+
+"lodash.mergewith@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.mergewith@npm:4.5.0"
+  checksum: 10/9737806ac3f035f94cacd9c54b32a8ff62cf7ba164b65e7d939ad2959f4ccf50a15c4d9179b7f60ec5ac345a2d637cc4bd7da855e1c3baba9cd881378c393371
   languageName: node
   linkType: hard
 

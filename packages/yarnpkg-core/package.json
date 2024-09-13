@@ -26,6 +26,7 @@
     "es-toolkit": "^1.18.0",
     "fast-glob": "^3.2.2",
     "got": "^11.7.0",
+    "lodash.mergewith": "^4.5.0",
     "micromatch": "^4.0.2",
     "p-limit": "^2.2.0",
     "semver": "^7.1.2",
