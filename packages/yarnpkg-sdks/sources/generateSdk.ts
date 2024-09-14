@@ -4,7 +4,7 @@ import {parseSyml, stringifySyml}                                   from '@yarnp
 import {PnpApi}                                                     from '@yarnpkg/pnp';
 import chalk                                                        from 'chalk';
 import {UsageError}                                                 from 'clipanion';
-import {capitalize, startCase}                                      from 'es-toolkit/compat';
+import {capitalize, startCase}                                      from 'es-toolkit/string';
 
 import {dynamicRequire}                                             from './dynamicRequire';
 import {BASE_SDKS}                                                  from './sdks/base';

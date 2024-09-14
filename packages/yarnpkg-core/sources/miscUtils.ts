@@ -1,6 +1,6 @@
 import {PortablePath, npath, xfs} from '@yarnpkg/fslib';
 import {UsageError}               from 'clipanion';
-import {isEqual, mergeWith}       from 'es-toolkit/compat';
+import {isEqual, mergeWith}       from 'es-toolkit';
 import micromatch                 from 'micromatch';
 import pLimit, {Limit}            from 'p-limit';
 import semver                     from 'semver';

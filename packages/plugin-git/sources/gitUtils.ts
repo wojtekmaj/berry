@@ -1,7 +1,7 @@
 import {Configuration, Hooks, Locator, Project, execUtils, httpUtils, miscUtils, semverUtils, structUtils, ReportError, MessageName, formatUtils} from '@yarnpkg/core';
 import {Filename, npath, PortablePath, ppath, xfs}                                                                                                from '@yarnpkg/fslib';
 import {UsageError}                                                                                                                               from 'clipanion';
-import {capitalize}                                                                                                                               from 'es-toolkit/compat';
+import {capitalize}                                                                                                                               from 'es-toolkit/string';
 import GitUrlParse                                                                                                                                from 'git-url-parse';
 import querystring                                                                                                                                from 'querystring';
 import semver                                                                                                                                     from 'semver';

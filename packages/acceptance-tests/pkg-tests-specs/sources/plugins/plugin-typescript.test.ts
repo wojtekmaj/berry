@@ -1,6 +1,6 @@
 import {Manifest}                 from '@yarnpkg/core';
 import {PortablePath, ppath, xfs} from '@yarnpkg/fslib';
-import {merge}                    from 'es-toolkit/compat';
+import {merge}                    from 'es-toolkit';
 import {fs, yarn}                 from 'pkg-tests-core';
 
 const {unpackToDirectory} = fs;

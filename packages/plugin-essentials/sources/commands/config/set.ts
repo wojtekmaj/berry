@@ -1,7 +1,8 @@
 import {BaseCommand}                                         from '@yarnpkg/cli';
 import {Configuration, StreamReport, MessageName, miscUtils} from '@yarnpkg/core';
 import {Command, Option, Usage, UsageError}                  from 'clipanion';
-import {cloneDeep, get as getPath, set as setPath}           from 'es-toolkit/compat';
+import {get as getPath, set as setPath}                      from 'es-toolkit/compat';
+import {cloneDeep}                                           from 'es-toolkit/object';
 import {inspect}                                             from 'util';
 
 // eslint-disable-next-line arca/no-default-export
