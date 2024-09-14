@@ -1,8 +1,6 @@
 import {PortablePath, npath, xfs} from '@yarnpkg/fslib';
 import {UsageError}               from 'clipanion';
-import {isEqual}                  from 'es-toolkit/compat';
-// TODO: Replace with es-toolkit/compat
-import mergeWith                  from 'lodash.mergewith';
+import {isEqual, mergeWith}       from 'es-toolkit/compat';
 import micromatch                 from 'micromatch';
 import pLimit, {Limit}            from 'p-limit';
 import semver                     from 'semver';

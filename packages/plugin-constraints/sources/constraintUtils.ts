@@ -1,10 +1,6 @@
 import {Configuration, formatUtils, Manifest, miscUtils, nodeUtils, Project, treeUtils, Workspace} from '@yarnpkg/core';
 import {PortablePath}                                                                              from '@yarnpkg/fslib';
-import {get, set}                                                                                  from 'es-toolkit/compat';
-
-function toPath(value: any): Array<string> {
-  return Array.isArray(value) ? value : value.match(/([^[.\]])+/g);
-}
+import {get, set, toPath, unset}                                                                   from 'es-toolkit/compat';
 
 export type ProcessResult = {
   manifestUpdates: Map<PortablePath, Map<string, Map<any, Set<nodeUtils.Caller>>>>;
@@ -219,7 +215,7 @@ export function applyEngineReport(project: Project, {manifestUpdates, reportedEr
         }
 
         if (typeof newValue === `undefined`)
-          set(manifest, fieldPath, undefined);
+          unset(manifest, fieldPath);
         else
           set(manifest, fieldPath, newValue);
 
