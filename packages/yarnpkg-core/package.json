@@ -23,7 +23,7 @@
     "cross-spawn": "7.0.3",
     "diff": "^5.1.0",
     "dotenv": "^16.3.1",
-    "es-toolkit": "^1.18.0",
+    "es-toolkit": "^1.19.0",
     "fast-glob": "^3.2.2",
     "got": "^11.7.0",
     "lodash.mergewith": "^4.5.0",
