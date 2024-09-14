@@ -4577,7 +4577,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:*":
+"@types/lodash@npm:*, @types/lodash@npm:^4.14.136":
   version: 4.14.172
   resolution: "@types/lodash@npm:4.14.172"
   checksum: 10/0653e578262d42071b31b3ae349e962d9f18442e5ec7f09894d3b6207995cfbdfef0bdd3917acb90c0ddd22c6eaf72215c84cf118d44a9fdcfafb0faa848882a
@@ -16664,6 +16664,7 @@ pem@dexus/pem:
   version: 0.0.0-use.local
   resolution: "pkg-tests-specs@workspace:packages/acceptance-tests/pkg-tests-specs"
   dependencies:
+    "@types/lodash": "npm:^4.14.136"
     "@types/tar": "npm:^4.0.4"
     "@yarnpkg/cli": "workspace:^"
     "@yarnpkg/core": "workspace:^"

@@ -13,6 +13,7 @@
     "directory": "packages/acceptance-tests/pkg-tests-specs"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.136",
     "@types/tar": "^4.0.4",
     "@yarnpkg/cli": "workspace:^",
     "@yarnpkg/core": "workspace:^",

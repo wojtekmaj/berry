@@ -30819,6 +30819,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/acceptance-tests/pkg-tests-specs/",\
         "packageDependencies": [\
           ["pkg-tests-specs", "workspace:packages/acceptance-tests/pkg-tests-specs"],\
+          ["@types/lodash", "npm:4.14.172"],\
           ["@types/tar", "npm:4.0.4"],\
           ["@yarnpkg/cli", "virtual:8bb72793b532d34e63bbc26264dcbcfc4dc4faa0a42627635e997081722bf229d67b7a677d86a568dad949d756630e45b9d4da97ee14b1b4c506494f8a58ea91#workspace:packages/yarnpkg-cli"],\
           ["@yarnpkg/core", "workspace:packages/yarnpkg-core"],\
